@@ -20,6 +20,6 @@ namespace SendMail.Controllers
         public void SendMail(MailData mail){
             sendService.SendMail(mail);
             
-        }
+        } 
     }
 }
